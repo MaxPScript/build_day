@@ -5,6 +5,12 @@ footer {
 	justify-content: space-between;
 	p {
 		margin-inline-start: auto;
+		a {
+			background: azure;
+			margin-inline: 1rem;
+			border-radius: 0.2rem;
+			padding: 0.2rem 0.3rem;
+		}
 	}
 	img {
 		width: 1rem;

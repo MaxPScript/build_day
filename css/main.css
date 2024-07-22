@@ -9,6 +9,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+}
 html {
 	background-color: hsl(43, 75%, 50%);
 	height: 100%;
@@ -29,6 +32,9 @@ body {
 		display: flex;
 		justify-content: space-between;
 		padding: var(--pad-box) var(--pad-inline);
+		p {
+			font-size: clamp(1rem, 0.1rem + 2.5vw, 4rem);
+		}
 	}
 }
 main {
