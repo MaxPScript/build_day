@@ -11,6 +11,10 @@
 }
 a {
 	text-decoration: none;
+	color: #ff8c4d;
+	font-weight: 600;
+	/* letter-spacing: 0.05em; */
+	font-size: large;
 }
 html {
 	background-color: hsl(43, 75%, 50%);
@@ -131,7 +135,7 @@ main::before {
 	/* height: 65%; */
 	background: hsl(200 50% 0% / 0.65);
 
-	padding-block-start: 1.5em;
-	padding-block-end: 2em;
+	padding-block-start: 2.5em;
+	padding-block-end: 6em;
 	padding-inline: 1.5em;
 }

@@ -7,7 +7,7 @@ footer {
 		margin-inline-start: auto;
 		a {
 			background: azure;
-			margin-inline: 1rem;
+			margin-inline: 0.3rem;
 			border-radius: 0.2rem;
 			padding: 0.2rem 0.3rem;
 		}
