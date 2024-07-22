@@ -1,17 +1,20 @@
 .details {
-	background-color: #148545;
-	background-color: hsl(146 65% 20% / 1);
+	/* background-color: #148545; */
+	/* background-color: hsl(146 65% 20% / 1); */
 }
 h2 {
 	text-align: center;
+	font-size: clamp(1rem, 0.1rem + 3vw, 4rem);
+	padding-block-start: 1rem;
 }
 ul {
-	/* display: flex; */
+	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	list-style-type: none;
 
 	padding-block: 1.5rem;
+	padding-inline-start: 2rem;
 	position: relative;
 
 	li {
@@ -31,10 +34,10 @@ ul {
 	}
 	li:nth-child(odd) {
 		border-left: 1px solid white;
-		left: 50%;
+		/* left: 50%; */
 	}
 	li:nth-child(even) {
-		border-right: 1px solid white;
-		right: 50%;
+		border-left: 1px solid white;
+		/* right: 50%; */
 	}
 }
