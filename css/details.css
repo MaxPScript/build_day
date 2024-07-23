@@ -1,6 +1,7 @@
 .details {
 	/* background-color: #148545; */
 	/* background-color: hsl(146 65% 20% / 1); */
+	--blue-darker-2: hsl(200 50 30 / 1);
 }
 h2 {
 	text-align: center;
@@ -33,6 +34,7 @@ ul {
 			padding-block: 1rem;
 			padding-inline: 0.6rem;
 			width: fit-content;
+			background-color: var(--blue-darker-2);
 		}
 		p:nth-child(2) {
 			/* margin-inline-start: 1rem; */

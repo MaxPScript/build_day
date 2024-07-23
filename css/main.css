@@ -1,6 +1,7 @@
 :root {
 	--blue: hsl(200 50 50 / 1);
 	--blue-darker: hsl(200 50 40 / 1);
+	/* --blue-darker-2: hsl(200 50 30 / 1); */
 	--pad-inline: 1rem;
 	--pad-box: 0.8rem;
 }
@@ -11,7 +12,8 @@
 }
 a {
 	text-decoration: none;
-	color: #ff8c4d;
+	/* color: #ff8c4d; */
+	color: #ffff80;
 	font-weight: 600;
 	/* letter-spacing: 0.05em; */
 	font-size: large;
