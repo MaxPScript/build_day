@@ -1,7 +1,7 @@
 :root {
 	--blue: hsl(200 50 50 / 1);
 	--blue-darker: hsl(200 50 40 / 1);
-	/* --blue-darker-2: hsl(200 50 30 / 1); */
+	--blue-darker-2: hsl(200 50 30 / 1);
 	--pad-inline: 1rem;
 	--pad-box: 0.8rem;
 }
@@ -34,12 +34,21 @@ body {
 }
 .header {
 	text-align: center;
+	padding-block: 1rem;
 	nav {
 		display: flex;
 		justify-content: space-between;
+		align-items: stretch;
 		padding: var(--pad-box) var(--pad-inline);
 		p {
 			font-size: clamp(1rem, 0.1rem + 2.5vw, 4rem);
+			align-content: center;
+		}
+		.timer {
+			background-color: var(--blue-darker-2);
+			border-radius: 0.6rem;
+			/* box-shadow: 1px 1px 1px hsl(200 50% 50% /1); */
+			box-shadow: 2px 2px 3px hsl(225 75% 10% /0.8);
 		}
 	}
 }
