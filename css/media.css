@@ -1,0 +1,12 @@
+@media (width < 600px) {
+	.header {
+		nav {
+			flex-direction: column;
+			/* gap: 1rem; */
+			padding-block: 0;
+		}
+	}
+	.timer {
+		padding-block: 1rem;
+	}
+}

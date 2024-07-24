@@ -39,6 +39,7 @@ body {
 		display: flex;
 		justify-content: space-between;
 		align-items: stretch;
+		gap: 1rem;
 		padding: var(--pad-box) var(--pad-inline);
 		p {
 			font-size: clamp(1rem, 0.1rem + 2.5vw, 4rem);
@@ -75,7 +76,7 @@ main {
 		/* font-size: 4em; */
 		/* font-size: clamp(1rem, 2rem + 3vw, 4rem); */
 		/* font-size: clamp(1rem, 1.8rem + 3.2vw, 4rem); */
-		font-size: clamp(1rem, 0.1rem + 6vw, 4rem);
+		font-size: clamp(2rem, 0.2rem + 5.5vw, 4rem);
 		font-weight: bold;
 		background: linear-gradient(
 			45deg,
@@ -147,6 +148,6 @@ main::before {
 	background: hsl(200 50% 0% / 0.65);
 
 	padding-block-start: 2.5em;
-	padding-block-end: 6em;
+	padding-block-end: 4em;
 	padding-inline: 1.5em;
 }
