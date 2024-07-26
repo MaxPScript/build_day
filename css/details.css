@@ -8,6 +8,10 @@ h2 {
 	font-size: clamp(1rem, 0.1rem + 3vw, 4rem);
 	padding-block-start: 1rem;
 }
+p {
+	text-align: center;
+	padding-block-start: 1rem;
+}
 ul {
 	display: flex;
 	flex-direction: column;
