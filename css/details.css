@@ -2,16 +2,17 @@
 	/* background-color: #148545; */
 	/* background-color: hsl(146 65% 20% / 1); */
 	--blue-darker-2: hsl(200 50 30 / 1);
+	p {
+		text-align: center;
+		padding-block-start: 1rem;
+	}
 }
 h2 {
 	text-align: center;
 	font-size: clamp(1rem, 0.1rem + 3vw, 4rem);
 	padding-block-start: 1rem;
 }
-p {
-	text-align: center;
-	padding-block-start: 1rem;
-}
+
 ul {
 	display: flex;
 	flex-direction: column;

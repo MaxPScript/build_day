@@ -44,6 +44,7 @@ body {
 		p {
 			font-size: clamp(1rem, 0.1rem + 2.5vw, 4rem);
 			align-content: center;
+			padding: 1rem;
 		}
 		.timer {
 			background-color: var(--blue-darker-2);

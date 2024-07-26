@@ -5,6 +5,9 @@
 			/* gap: 1rem; */
 			padding-block: 0;
 		}
+		p:not(.timer) {
+			padding-block: 0;
+		}
 	}
 	.timer {
 		padding-block: 1rem;
