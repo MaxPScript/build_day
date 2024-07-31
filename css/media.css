@@ -8,6 +8,9 @@
 		p:not(.timer) {
 			padding-block: 0;
 		}
+		p:first-child {
+			font-size: clamp(1.3rem, 0.1rem + 2.5vw, 4rem);
+		}
 	}
 	.timer {
 		padding-block: 1rem;
