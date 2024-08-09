@@ -70,6 +70,15 @@ function updateTimer() {
 
 	const timerElement = document.getElementById("timer");
 	timerElement.textContent = `До начала: ${remainingTime.days} дней, ${remainingTime.hours} часов, ${remainingTime.minutes} минут, ${remainingTime.seconds} секунд`;
+	if (
+		remainingTime.days === 0 &&
+		remainingTime.hours === 0 &&
+		remainingTime.minutes === 0 &&
+		remainingTime.seconds === 0
+	) {
+		timerElement.textContent = `Турнир начался!`;
+		clearInterval(interval_1);
+	}
 }
 
-setInterval(updateTimer, 1);
+const interval_1 = setInterval(updateTimer, 1);
