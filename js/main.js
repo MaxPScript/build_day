@@ -76,7 +76,7 @@ function updateTimer() {
 		remainingTime.minutes === 0 &&
 		remainingTime.seconds === 0
 	) {
-		timerElement.textContent = `Турнир начался!`;
+		timerElement.textContent = `Турнир закончился, всем спасибо!`;
 		clearInterval(interval_1);
 	}
 }
