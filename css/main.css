@@ -40,25 +40,34 @@ body {
 		display: flex;
 		justify-content: space-between;
 		align-items: stretch;
-		gap: 1rem;
+		/* gap: 1rem; */
 		padding: var(--pad-box) var(--pad-inline);
 		p {
 			font-size: clamp(1rem, 0.1rem + 2.5vw, 2rem);
+			font-size: clamp(1rem, 0.1rem + 2vw, 2rem);
 			align-content: center;
 			padding: 1rem;
 		}
 		p:first-child {
 			/* font-size: clamp(1.3rem, 0.1rem + 2.5vw, 4rem); */
+			flex: 1 0 30%;
+		}
+		p:first-child {
+			/* font-size: clamp(1.3rem, 0.1rem + 2.5vw, 4rem); */
+			flex: 1 0 30%;
 		}
 		.timer {
+			flex: 1 0 40%;
 			background-color: var(--blue-darker-2);
 			border-radius: 0.6rem;
 			/* box-shadow: 1px 1px 1px hsl(200 50% 50% /1); */
 			box-shadow: 2px 2px 3px hsl(225 75% 10% /0.8);
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: space-evenly;
 			gap: 1rem;
 			align-self: stretch;
+			max-width: 50%;
 			a {
 				background: hsl(200, 50%, 48%);
 				align-self: center;
@@ -68,6 +77,9 @@ body {
 			}
 			a:hover {
 				background: hsl(200, 50%, 43%);
+			}
+			span {
+				font-size: clamp(1rem, 0.05rem + 1.8vw, 1.8rem);
 			}
 		}
 	}
