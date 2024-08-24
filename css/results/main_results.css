@@ -80,3 +80,17 @@ td:nth-last-child(4) {
 		padding-inline: 0.5rem;
 	}
 }
+.rollers {
+	p {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		/* background-color: lightgray; */
+	}
+	p:first-of-type {
+		font-weight: bold;
+	}
+	span {
+		margin-inline: 0.5rem;
+		background-color: lightgray;
+	}
+}
